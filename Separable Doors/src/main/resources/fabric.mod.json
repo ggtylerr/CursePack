@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "cursepack-separable-doors",
+  "version": "${version}",
+
+  "name": "[CURSEPACK] Separable Doors",
+  "description": "Doors can now be separated.",
+  "authors": [
+    "ggtylerr"
+  ],
+  "contact": {
+    "__homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/ggtylerr/CursePack"
+  },
+
+  "license": "GPL-3.0",
+  "icon": "assets/cursepack-separable-doors/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.ggtylerr.cursepack.separable_doors.Initializer"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
