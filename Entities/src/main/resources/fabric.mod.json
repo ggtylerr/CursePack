@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "cursepack-entities",
+  "version": "${version}",
+
+  "name": "[CursePack] Entities",
+  "description": "Adds several new entities!",
+  "authors": [
+    "ggtylerr"
+  ],
+  "contact": {
+    "__homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/ggtylerr/CursePack"
+  },
+
+  "license": "GPL-3.0",
+  "icon": "assets/cursepack-entities/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.ggtylerr.cursepack.entities.Initializer"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

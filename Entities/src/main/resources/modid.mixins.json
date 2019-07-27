@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "net.ggtylerr.cursepack.entities.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "CursePackEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
