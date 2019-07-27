@@ -2,7 +2,7 @@
 Adds several new entities
 
 ```
-mod-id: cursepack-separable-doors
+mod-id: cursepack-entities
 ```
 
 Notes:
